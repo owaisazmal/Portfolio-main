@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.40.2",
+  "description": "My portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmelto/Portfolio.git"
+  },
+  "author": "schmelto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schmelto/Portfolio/issues"
+  },
+  "homepage": "https://github.com/schmelto/Portfolio#readme",
+  "dependencies": {
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-scope": "^8.1.0",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "globals": "^15.10.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
