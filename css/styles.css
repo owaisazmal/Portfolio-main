@@ -412,3 +412,25 @@ a.nav-link:hover {
 .highlight-blue {
   color: #6ac4ff;
 }
+.btn-resume {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;  /* Black background */
+  color: #fff;  /* White text */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-resume:hover {
+  background-color: #333; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slightly lift the button on hover */
+}
+
+.btn-resume:active {
+  background-color: #666; /* Even darker shade on click */
+  transform: translateY(0); /* Return button to original position on click */
+}
+
