@@ -414,14 +414,14 @@ a.nav-link:hover {
 }
 .btn-resume {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 3px 20px;
   background-color: #000;  /* Black background */
   color: #fff;  /* White text */
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+  font-weight: 1.03em;
   text-align: center;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 16px; /* Adjust this value as needed */
 }
 
 .btn-resume:hover {
